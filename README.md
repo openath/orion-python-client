@@ -11,8 +11,12 @@ so that an app can be POSTed to when something changes.
 The documentation is at
  http://fiware-orion.readthedocs.org/
  
- The examples use CURL.  We're using Python, so we made a test script with
- some wrapper functions.  Hopefully this will save time for any Pythonista
- wanting to get to grips with Orion.
+The examples use CURL.  We're using Python, so we made a test script with
+some wrapper functions.  Hopefully this will save time for any Pythonista
+wanting to get to grips with Orion.
+
+Make sure you run the CURL examples and get a token using the main Orion tutorial.
  
- This is a simple script.  It is not packaged for deployment.
+This is a module and a test command lifted from a Django project.  It has a
+few Django imports.  It is not packaged for deployment nor instantly runnable.  We'll try to make it independently runnable in the next few days.
+
