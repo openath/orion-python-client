@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name='orionclient',
-    version='0.0.1',
+    version='0.0.2',
     description='pure python fiware orion client',
     url='https://github.com/openath/orion-python-client',
     author='Andy Robinson',
@@ -9,7 +9,7 @@ setup(
     classifiers=[
             'Development Status :: 3 - Alpha',
             'Intended Audience :: Developers',
-            'Topic :: Software Development :: Web Service Client',
+            'Topic :: Software Development :: Libraries :: Python Modules',
             'Programming Language :: Python :: 2',
             'Programming Language :: Python :: 2.7',
             'Programming Language :: Python :: 3',
